@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
@@ -45,29 +44,6 @@ function App() {
         <Footer />
       </div>
     </Router>
-=======
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
->>>>>>> 9aad3fafc037fa8f4e30319d678ab84e2a3a34c0
   );
 }
 

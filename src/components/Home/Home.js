@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
     <Helmet>
-        <title>Portfolio | Mugabo</title>
+        <title>Mugabo | Portfolio </title>
         <meta name="description" content="This is the homepage of my blog." />
       </Helmet>
 
