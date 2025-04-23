@@ -38,8 +38,8 @@ void multiply(int mat1[N][N], int mat2[N][N], int res[N][N]) {
 }
 
 int main() {
-    int mat1[N][N] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    int mat2[N][N] = {{9, 8, 7}, {6, 5, 4}, {3, 2, 1}};
+    int mat1[N][N] = 
+    int mat2[N][N] = 
     int res[N][N];
     // function to multiply matrices
     multiply(mat1, mat2, res);
@@ -87,8 +87,8 @@ import time
 def multiply_matrices(mat1, mat2):
     return np.dot(mat1, mat2)
 
-mat1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-mat2 = np.array([[9, 8, 7], [6, 5, 4], [3, 2, 1]])
+mat1 = np.array()
+mat2 = np.array()
 
 start_time = time.time()
 result = multiply_matrices(mat1, mat2)
