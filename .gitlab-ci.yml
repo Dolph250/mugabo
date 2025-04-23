@@ -1,13 +1,21 @@
 image: node:18
 
 stages:
+  - build
   - deploy
+
+build:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - build
 
 pages:
   stage: deploy
   script:
-    - npm install
-    - npm run build
     - mv build public
   artifacts:
     paths:
