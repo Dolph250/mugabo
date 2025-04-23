@@ -52,6 +52,6 @@
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "install": "^0.13.0",
-    "npm": "^11.3.0"
+    "npm": "^8.19.4"
   }
 }
