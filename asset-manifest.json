@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/mugabo/static/css/main.4006ba4b.css",
+    "main.js": "/mugabo/static/js/main.a18b06cf.js",
+    "static/media/home-main.svg": "/mugabo/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/mugabo/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/mugabo/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/delphireallogo.png": "/mugabo/static/media/delphireallogo.aba78daa0bd15aaf96b1.png",
+    "static/media/myimage.jpg": "/mugabo/static/media/myimage.2e9c5e850651f1660b7d.jpg",
+    "static/media/pre.svg": "/mugabo/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/mugabo/index.html",
+    "main.4006ba4b.css.map": "/mugabo/static/css/main.4006ba4b.css.map",
+    "main.a18b06cf.js.map": "/mugabo/static/js/main.a18b06cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4006ba4b.css",
+    "static/js/main.a18b06cf.js"
+  ]
+}
