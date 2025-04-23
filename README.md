@@ -70,13 +70,7 @@ Each commit includes a meaningful message that reflects:
 **Why so?**  
 This ensures traceability, easy debugging, and easy to track changes as well as tracing project progress.
 
-### Git Commands in Practice:
 
-
-
-
-`git checkout -b main # Switch to main branch 
-git add . # Stage changes git commit -m "Linked with previous assignment" git push origin main # Push to GitLab` 
 
 ## 🔁 Git Workflow and Commit Strategy
 
@@ -107,6 +101,7 @@ For syncing across multiple machines (I've been using couple of computers for pu
 `git pull origin main # Pull the latest updates`
 
 For pushing to main branch
+
 `git push origin main # pushing to main branch`
 
 ## 🚀 Deployment Using GitLab Pages
@@ -136,4 +131,4 @@ After successful deployment, the blog is accessible via: 🔗 `http://10.61.2.24
 - Linking future assignments to the current blog site
 
 ## 📷 Screenshot
-![My Blog Preview](./Assets/screenshot.png)
+![My Blog Preview](http://10.61.2.24:2025/LS2425229/myblog/-/raw/main/public/Assets/screenshot.JPG?ref_type=heads)
