@@ -31,9 +31,9 @@ This project is a **Personal Blog Website** developed using **React.js**. It all
 
 | **React Markdown** | To parse and display `.md` (Markdown) files in a clean HTML format |
 
-| **Git & GitLab** | Version control and repository hosting |
+| **Git & GitLab and GitHub for hosting** | Version control and repository hosting |
 
-| **GitLab Pages** | Deployment platform for the static site |
+| **GitHub Pages** | Deployment platform for the static site |
 
   
 
@@ -57,6 +57,16 @@ React is component-based, fast, and widely supported. It makes the project modul
 
 git  clone  http://10.61.2.24:2025/LS2425229/myblog.git
 
+``` 
+
+or  clone the following repo
+```bash
+
+git  clone  https://github.com/Dolph250/mugabo.git
+
+``` 
+
+```bash
 cd  myblog
 
 ```
@@ -119,7 +129,7 @@ Each commit includes a meaningful message that reflects:
 
 - Linked with previous assignment (`Add link to the blog to resurrect to the markdown of previous assignment`)
 
-- Deployment preparation (`Add .gitlab-ci.yml for GitLab Pages`)
+- Deployment preparation 
 
   
 
