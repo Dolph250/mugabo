@@ -131,8 +131,4 @@ After successful deployment, the blog is accessible via: 🔗 `http://10.61.2.24
 - Linking future assignments to the current blog site
 
 ## 📷 Screenshot
-<<<<<<< HEAD
 ![My Blog Preview](http://10.61.2.24:2025/LS2425229/myblog/-/raw/main/public/Assets/screenshot.JPG?ref_type=heads)
-=======
-![My Blog Preview](http://10.61.2.24:2025/LS2425229/myblog/-/raw/main/public/Assets/screenshot.JPG?ref_type=heads)
->>>>>>> 85861580542385b51ac2eaec96537c487c9b2b11
