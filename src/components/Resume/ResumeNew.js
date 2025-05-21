@@ -13,7 +13,7 @@ function ResumeNew() {
         {/* Optional Download Button */}
         <div className="text-center mb-3">
           <a
-            href="/resume.pdf"
+            href="/mugabo/resume.pdf"
             download="Mugabo_Adolphe_Resume.pdf"
             className="btn btn-primary"
           >
@@ -24,7 +24,7 @@ function ResumeNew() {
         {/* Embedded PDF Viewer */}
         <div className="d-flex justify-content-center">
           <iframe
-            src="/resume.pdf"
+            src="/mugabo//resume.pdf"
             title="Resume PDF"
             width="80%"
             height="800px"

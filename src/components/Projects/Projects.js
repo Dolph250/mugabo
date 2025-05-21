@@ -9,7 +9,7 @@ function Projects() {
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    fetch('/report.md')
+    fetch('/mugabo/report.md')
       .then((res) => res.text())
       .then((text) => setMarkdown(text));
   }, []);
