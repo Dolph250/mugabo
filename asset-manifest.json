@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/mugabo/static/css/main.f8897440.css",
-    "main.js": "/mugabo/static/js/main.a0a223d5.js",
+    "main.js": "/mugabo/static/js/main.b4952257.js",
+    "static/media/ass2.PNG": "/mugabo/static/media/ass2.806c21252870b31b5bb6.PNG",
+    "static/media/ass1.PNG": "/mugabo/static/media/ass1.ebdec944bea602cd1947.PNG",
     "static/media/home-main.svg": "/mugabo/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/mugabo/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "/mugabo/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/delphireallogo.png": "/mugabo/static/media/delphireallogo.aba78daa0bd15aaf96b1.png",
     "static/media/myimage.jpg": "/mugabo/static/media/myimage.2e9c5e850651f1660b7d.jpg",
+    "static/media/ass3.png": "/mugabo/static/media/ass3.a2d363d66c7114d8517e.png",
     "static/media/pre.svg": "/mugabo/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/mugabo/index.html",
     "main.f8897440.css.map": "/mugabo/static/css/main.f8897440.css.map",
-    "main.a0a223d5.js.map": "/mugabo/static/js/main.a0a223d5.js.map"
+    "main.b4952257.js.map": "/mugabo/static/js/main.b4952257.js.map"
   },
   "entrypoints": [
     "static/css/main.f8897440.css",
-    "static/js/main.a0a223d5.js"
+    "static/js/main.b4952257.js"
   ]
 }
