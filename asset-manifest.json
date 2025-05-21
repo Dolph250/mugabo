@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mugabo/static/css/main.4006ba4b.css",
-    "main.js": "/mugabo/static/js/main.a18b06cf.js",
-    "static/media/home-main.svg": "/mugabo/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
-    "static/media/about.png": "/mugabo/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/home-bg.jpg": "/mugabo/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/delphireallogo.png": "/mugabo/static/media/delphireallogo.aba78daa0bd15aaf96b1.png",
-    "static/media/myimage.jpg": "/mugabo/static/media/myimage.2e9c5e850651f1660b7d.jpg",
-    "static/media/pre.svg": "/mugabo/static/media/pre.4410c5baaa673cc131da.svg",
-    "index.html": "/mugabo/index.html",
-    "main.4006ba4b.css.map": "/mugabo/static/css/main.4006ba4b.css.map",
-    "main.a18b06cf.js.map": "/mugabo/static/js/main.a18b06cf.js.map"
+    "main.css": "/LS2425229/myblog/static/css/main.71de42a4.css",
+    "main.js": "/LS2425229/myblog/static/js/main.21ff40b4.js",
+    "static/media/home-main.svg": "/LS2425229/myblog/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/LS2425229/myblog/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/LS2425229/myblog/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/delphireallogo.png": "/LS2425229/myblog/static/media/delphireallogo.aba78daa0bd15aaf96b1.png",
+    "static/media/myimage.jpg": "/LS2425229/myblog/static/media/myimage.2e9c5e850651f1660b7d.jpg",
+    "static/media/pre.svg": "/LS2425229/myblog/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/LS2425229/myblog/index.html",
+    "main.71de42a4.css.map": "/LS2425229/myblog/static/css/main.71de42a4.css.map",
+    "main.21ff40b4.js.map": "/LS2425229/myblog/static/js/main.21ff40b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.4006ba4b.css",
-    "static/js/main.a18b06cf.js"
+    "static/css/main.71de42a4.css",
+    "static/js/main.21ff40b4.js"
   ]
 }
