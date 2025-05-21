@@ -3,7 +3,7 @@
   "name": "my-blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://10.61.2.24:2025/LS2425229/myblog",
+ 
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
