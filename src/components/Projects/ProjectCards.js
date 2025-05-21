@@ -1,35 +1,27 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
 
-function ProjectCards(props) {
+function ProjectCard({ imgPath, isBlog, title, description, demoLink }) {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(demoLink);  // This navigates without reloading the page
+  };
+
   return (
-    <Card className="project-card-view" >
-     <a href={props.demoLink} target="_blank" rel="noopener noreferrer"> <Card.Img variant="top" src={props.imgPath} alt="card-img" /></a>
+    <Card className="project-card-view">
+      <Card.Img variant="top" src={imgPath} alt="project-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
-        
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"View Assignment MD"}
-          </Button>
-        )}
+        <Card.Title>{title}</Card.Title>
+        <Card.Text style={{ textAlign: "justify" }}>{description}</Card.Text>
+        <Button variant="primary" onClick={handleClick}>
+          View Project
+        </Button>
       </Card.Body>
     </Card>
   );
 }
-export default ProjectCards;
+
+export default ProjectCard;

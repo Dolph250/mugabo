@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="Assigment 1"
               description="Matrix Multiplication Project Report"
-              demoLink="/mugabo/assignment"
+              demoLink="/assignment"
             />
           </Col>
 
@@ -38,20 +38,19 @@ function Projects() {
               title="Assignment 2"
               description="My personal blog page was developed using React.js. It allows integration of markdown content, resume embedding, and a responsive design."
      
-              demoLink="/mugabo/assignmenter"
+              demoLink="/assignmenter"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Assignment 3"
-              description="LLM"
-           
-              demoLink="/mugabo/assignmenter"              
-            />
-          </Col>
+      <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={editor}
+    isBlog={false}
+    title="Assignment 3"
+    description="LLM"
+    demoLink="/assignmenter"
+  />
+</Col>
 
       
 
@@ -63,7 +62,7 @@ function Projects() {
               isBlog={false}
               title="Assignment 4"
               description="LLM."
-                  demoLink="/mugabo/assignmenter"  
+                  demoLink="/assignmenter"  
             />
           </Col>
         </Row>
