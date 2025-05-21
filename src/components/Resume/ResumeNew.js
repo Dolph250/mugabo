@@ -13,7 +13,11 @@ function ResumeNew() {
         {/* Optional Download Button */}
         <div className="text-center mb-3">
           <a
+<<<<<<< HEAD
             href="/mugabo/resume.pdf"
+=======
+            href="/resume.pdf"
+>>>>>>> 85861580542385b51ac2eaec96537c487c9b2b11
             download="Mugabo_Adolphe_Resume.pdf"
             className="btn btn-primary"
           >
@@ -24,7 +28,11 @@ function ResumeNew() {
         {/* Embedded PDF Viewer */}
         <div className="d-flex justify-content-center">
           <iframe
+<<<<<<< HEAD
             src="/mugabo//resume.pdf"
+=======
+            src="/resume.pdf"
+>>>>>>> 85861580542385b51ac2eaec96537c487c9b2b11
             title="Resume PDF"
             width="80%"
             height="800px"

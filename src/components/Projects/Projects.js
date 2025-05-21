@@ -4,12 +4,20 @@ import ReactMarkdown from 'react-markdown';
 
 import Particle from "../Particle";
 
+<<<<<<< HEAD
 //new
+=======
+
+>>>>>>> 85861580542385b51ac2eaec96537c487c9b2b11
 function Projects() {
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
+<<<<<<< HEAD
     fetch('/mugabo/report.md')
+=======
+    fetch('/report.md')
+>>>>>>> 85861580542385b51ac2eaec96537c487c9b2b11
       .then((res) => res.text())
       .then((text) => setMarkdown(text));
   }, []);
