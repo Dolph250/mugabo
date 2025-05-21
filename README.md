@@ -1,70 +1,134 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📘 Markdown Report: Personal Blog Website
 
-## Available Scripts
+## 📝 Project Description
 
-In the project directory, you can run:
+This project is a **Personal Blog Website** developed using **React.js**. It allows integration of markdown content, resume embedding, and a responsive design. 
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Tools and Frameworks Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Tool/Framework | Purpose |
+|----------------|---------|
+| **React.js**   | Frontend library used for building the dynamic UI |
+| **React Router** | For routing different components like Resume, Assignment, and Home |
+| **React Markdown** | To parse and display `.md` (Markdown) files in a clean HTML format |
+| **Git & GitLab** | Version control and repository hosting |
+| **GitLab Pages** | Deployment platform for the static site |
 
-### `npm test`
+**Why React.js?**  
+React is component-based, fast, and widely supported. It makes the project modular and easy to maintain or scale. For a static blog with interactive content, React was a perfect fit.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 💻 Local Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the Repository
+```bash
+git clone http://10.61.2.24:2025/LS2425229/myblog.git
+cd myblog
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Run the Development Server
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open your browser and navigate to:  
+📍 `http://localhost:3000/`
 
-### `npm run eject`
+## 🔁 Git Workflow and Commit Strategy
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Branches Used:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   **main**: Primary development and deployment branch.
+    
+-   **master (deprecated)**: Previously used for development (used for testing branch creation only).
+    
+    
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Commit Rationale:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Each commit includes a meaningful message that reflects:
 
-## Learn More
+-   Initial React Set up (`This commit was for initial react setup`)
+    
+-   Added homepage and about pages (`Styled homepage and added about page`)
+    
+-   Conflict resolutions (`Resolve merge conflicts on main`)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-   Linked with previous assignment (`Add link to the blog to resurrect to the markdown of previous assignment`)
+    
+-   Deployment preparation (`Add .gitlab-ci.yml for GitLab Pages`)
+    
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Why so?**  
+This ensures traceability, easy debugging, and easy to track changes as well as tracing project progress.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🔁 Git Workflow and Commit Strategy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Branches Used:
 
-### Making a Progressive Web App
+-   **main**: Primary development and deployment branch.
+    
+-   **master (deprecated)**: Previously used for development.
+    
+-   **protected**: Backup or restricted branch (as per institutional settings).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Git Commands in Practice:
+`git init #performed only once to initialise git` 
 
-### Advanced Configuration
+`git checkout -b main # Switching from master branch to main branch` 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+`git add . # Stage changes, by adding all changed files and directories` 
 
-### Deployment
+`git add . # Stage changes, by adding all changed files and directories` 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+`git config --global user.name "LS2425229" # to set my account default identity`
 
-### `npm run build` fails to minify
+`git config --global user.email "ls2425229@example.com" # to set my account default identity`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`git status # to keep track of recently change files/directories`
+
+For syncing across multiple machines (I've been using couple of computers for pushing):
+`git pull origin main # Pull the latest updates`
+
+For pushing to main branch
+
+`git push origin main # pushing to main branch`
+
+## 🚀 Deployment Using GitLab Pages
+
+### 1. Add `.gitlab-ci.yml`
+
+A GitLab CI/CD configuration file was added to automate deployment:
+
+`image:  node:latest`  
+`pages:  script:  -  npm  install  -  npm  run  build  -  mv  build  public  `
+`artifacts:  paths:  -  public`  
+`only:  -  main`
+
+### 2. Push to GitLab
+
+Once `.gitlab-ci.yml` is added and committed, GitLab will build and deploy the project automatically.
+
+### 3. Accessing the Site
+
+After successful deployment, the blog is accessible via: 🔗 `http://10.61.2.24:2025/LS2425229/myblog`
+
+## 📦 Future Improvements
+
+  
+-   Enhance User Interface
+-  Add feature to toggle dark mode or light mode
+- Linking future assignments to the current blog site
+
+## 📷 Screenshot
+![My Blog Preview](http://10.61.2.24:2025/LS2425229/myblog/-/raw/main/public/Assets/screenshot.JPG?ref_type=heads)

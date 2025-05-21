@@ -13,8 +13,7 @@ function AboutCard() {
             <br />
             I am currently pursuing Master of Space Technology Applications, majoring Remote Sensing and Geographic Information Systems at Beihang University.
             <br />
-            I have completed B.Sc in Computer Science from University of Rwanda
-            Mesra.
+            I have completed B.Sc in Computer Science from University of Rwanda.
             <br />
             <br />
             When my fingers are far away from the keyboard, I am eager to
