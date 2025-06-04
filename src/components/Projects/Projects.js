@@ -6,7 +6,7 @@ import leaf from "../../Assets/Projects/ass1.PNG";
 import emotion from "../../Assets/Projects/ass3.png";
 import editor from "../../Assets/Projects/ass3.png";
 import chatify from "../../Assets/Projects/ass1.PNG";
-import suicide from "../../Assets/Projects/ass1.PNG";
+import suicide from "../../Assets/Projects/thumb4.png";
 import bitsOfCode from "../../Assets/Projects/ass2.PNG";
 
 function Projects() {
@@ -44,11 +44,11 @@ function Projects() {
 
       <Col md={4} className="project-card">
   <ProjectCard
-    imgPath={editor}
+    imgPath={suicide}
     isBlog={false}
     title="Assignment 3"
-    description="LLM"
-    demoLink="/assignmenter"
+    description="Deployment and Integration of LLM"
+    demoLink="/assignmentsan"
   />
 </Col>
 
@@ -58,11 +58,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={editor}
               isBlog={false}
               title="Assignment 4"
-              description="LLM."
-                  demoLink="/assignmenter"  
+              description="LLM. (To be done)"
+                  demoLink="/assignmentsan"  
             />
           </Col>
         </Row>

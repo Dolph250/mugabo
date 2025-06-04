@@ -8,11 +8,11 @@ import rehypeRaw from 'rehype-raw'; // 👈 For rendering raw HTML in markdown
 import Particle from "../Particle";
 import './markdownStyles.css'; // ✅ Retain custom styles
 
-const Assignment= () => {
+const Assignmentsan = () => {
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    fetch('/mugabo/report.md')
+    fetch('/mugabo/assignment3.md')
       .then((res) => res.text())
       .then((text) => setMarkdown(text));
   }, []);
@@ -59,4 +59,4 @@ const Assignment= () => {
   );
 };
 
-export default Assignment;
+export default Assignmentsan;

@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from "react-bootstrap";
 import ReactMarkdown from 'react-markdown';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import rehypeRaw from 'rehype-raw'; // 👈 For rendering raw HTML in markdown
 
 import Particle from "../Particle";
+import './markdownStyles.css'; // ✅ Retain custom styles
 
-//new
-function Assignmenter() {
+const Assignmenter= () => {
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
@@ -16,33 +19,44 @@ function Assignmenter() {
 
   return (
     <Container fluid className="project-section">
-
-      <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100vh', // full screen height
-        backgroundColor: '#f0f2f5', // light background
-      }}
-    >
-      <div
-        style={{
-          width: '60%',
-          height: '80%',
-          backgroundColor: 'white',
-          padding: '2rem',
-          borderRadius: '12px',
-          overflowY: 'auto',
-          boxShadow: '0 0 20px rgba(0,0,0,0.1)',
-        }}
-      >
-        <ReactMarkdown>{markdown}</ReactMarkdown>
+      <div className="markdown-wrapper">
+        <div className="markdown-container">
+          <ReactMarkdown
+            children={markdown}
+            rehypePlugins={[rehypeRaw]} // ✅ Enable raw HTML support
+            components={{
+              code({ node, inline, className, children, ...props }) {
+                const match = /language-(\w+)/.exec(className || '');
+                return !inline ? (
+                  <div className="code-block-wrapper">
+                    <button
+                      className="copy-btn"
+                      onClick={() => navigator.clipboard.writeText(children)}
+                    >
+                      Copy
+                    </button>
+                    <SyntaxHighlighter
+                      style={vscDarkPlus}
+                      language={match?.[1] || 'bash'}
+                      PreTag="div"
+                      {...props}
+                    >
+                      {String(children).replace(/\n$/, '')}
+                    </SyntaxHighlighter>
+                  </div>
+                ) : (
+                  <code className="inline-code" {...props}>
+                    {children}
+                  </code>
+                );
+              },
+            }}
+          />
+        </div>
       </div>
-    </div>
-    <Particle />
+      <Particle />
     </Container>
   );
-}
+};
 
 export default Assignmenter;

@@ -8,13 +8,33 @@
 **Submission Date**: 2025-03-25
 
 
-## System Configuration
+<h2>System Configuration</h2>
 
-| **CPU Model:**|Intel(R) Core(TM) i5-4300M CPU @ 2.60GHz  |
-| **Memory Size**| Total: 3.8Gi, Used: 518Mi, Free: 3.3Gi |
-| **Operating System**: | Linux x86_64 GNU |
-| **Compiler Version** | gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0 |
-| **Python Version**: | Python 3.12.3 |
+<table>
+  <tbody>
+    <tr>
+      <th>CPU Model:</th>
+      <td>Intel(R) Core(TM) i5-4300M CPU @ 2.60GHz</td>
+    </tr>
+    <tr>
+      <th>Memory Size:</th>
+      <td>Total: 3.8Gi, Used: 518Mi, Free: 3.3Gi</td>
+    </tr>
+    <tr>
+      <th>Operating System:</th>
+      <td>Linux x86_64 GNU</td>
+    </tr>
+    <tr>
+      <th>Compiler Version:</th>
+      <td>gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0</td>
+    </tr>
+    <tr>
+      <th>Python Version:</th>
+      <td>Python 3.12.3</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 ## Implementation Details
@@ -38,8 +58,8 @@ void multiply(int mat1[N][N], int mat2[N][N], int res[N][N]) {
 }
 
 int main() {
-    int mat1[N][N] = 
-    int mat2[N][N] = 
+    int mat1[N][N] =  // codes from here were deleted because they incorporated curly brackets which led to errors while deploying to GitHub
+    int mat2[N][N] = // codes from here were deleted because they incorporated curly brackets which led to errors while deploying to GitHub
     int res[N][N];
     // function to multiply matrices
     multiply(mat1, mat2, res);
@@ -108,10 +128,25 @@ print(f"Execution Time: {execution_time:.6f} ms")
 
 ## Performance Analysis【bonus】
 
-**Execution Times**:
+<table>
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th>Execution Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>C Program</strong></td>
+      <td>0.000458 ms</td>
+    </tr>
+    <tr>
+      <td><strong>Python</strong></td>
+      <td>0.007242 ms</td>
+    </tr>
+  </tbody>
+</table>
 
-| **C Program** | 0.000458 ms |
-| **Python** | 0.007242 ms|
 
 **Analysis**: 
 
@@ -134,10 +169,11 @@ https://www.geeksforgeeks.org/time-complexity-and-space-complexity/
 [Accessed March 25.2025]
 
 ## Appendix
-![Output of the Python program, executed from the remote workstation](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/486621170_2982769485205219_5271737741796030883_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xfVKPitObFwQ7kNvgHw8xgH&_nc_oc=Admr04J0yUCBJU39MrM8vI6aMo3UMFXEOkO3dYVkMvXtl1ND_Q5VvZ3yrJ0KG1ZYm34&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=teQUQ48lo5RLox8D1X6TuQ&oh=00_AYGnp70oo79SdBNUXL0ACuR6z1j5b037iiOFfjXSOVH_NA&oe=67E8456B)
+![Output of the Python program, executed from the remote workstation](/mugabo/output.jpg)
 
 
 
-![Comparison of Python Program VS C Program in terms of execution time](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/486490840_2982764691872365_5315368710483007292_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DYsc9hwBLl8Q7kNvgEwGSXo&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=JA7N_8Y09v3KGSdC2l6u1w&oh=00_AYGS9qvezvecSQg1UpG1n0VMY5ORbaP8vFPyuGyTtTEzzA&oe=67E825FB)
+
+![Comparison of Python Program VS C Program in terms of execution time](/mugabo/pythonOutputa.jpg)
 
 
