@@ -17,23 +17,38 @@ This project is a **Personal Blog Website** developed using **React.js**. It all
 
   
 
-## ⚙️ Tools and Frameworks Used
+<h2>⚙️ Tools and Frameworks Used</h2>
 
-  
-
-| Tool/Framework | Purpose |
-
-|----------------|---------|
-
-| **React.js** | Frontend library used for building the dynamic UI |
-
-| **React Router** | For routing different components like Resume, Assignment, and Home |
-
-| **React Markdown** | To parse and display `.md` (Markdown) files in a clean HTML format |
-
-| **Git & GitLab and GitHub for hosting** | Version control and repository hosting |
-
-| **GitHub Pages** | Deployment platform for the static site |
+<table>
+  <thead>
+    <tr>
+      <th>Tool/Framework</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>React.js</strong></td>
+      <td>Frontend library used for building the dynamic UI</td>
+    </tr>
+    <tr>
+      <td><strong>React Router</strong></td>
+      <td>For routing different components like Resume, Assignment, and Home</td>
+    </tr>
+    <tr>
+      <td><strong>React Markdown</strong></td>
+      <td>To parse and display .md (Markdown) files in a clean HTML format</td>
+    </tr>
+    <tr>
+      <td><strong>Git &amp; GitLab and GitHub for hosting</strong></td>
+      <td>Version control and repository hosting</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub Pages</strong></td>
+      <td>Deployment platform for the static site</td>
+    </tr>
+  </tbody>
+</table>
 
   
 
