@@ -10,6 +10,7 @@ import Resume from "./components/Resume/ResumeNew";
 import Assignment from "./components/Projects/Assignment";
 import Assignmenter from "./components/Projects/Assignmenter";
 import Assignmentsan from "./components/Projects/Assignmentsan";
+import Assignmentsi from "./components/Projects/Assignmentsi";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
@@ -39,6 +40,7 @@ function App() {
           <Route path="/assignment" element={<Assignment />} />
           <Route path="/assignmenter" element={<Assignmenter />} />
           <Route path="/assignmentsan" element={<Assignmentsan />} />
+          <Route path="/assignmentsi" element={<Assignmentsi />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

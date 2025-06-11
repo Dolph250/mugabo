@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/ass1.PNG";
 import emotion from "../../Assets/Projects/ass3.png";
-import editor from "../../Assets/Projects/ass3.png";
+import editor from "../../Assets/Projects/thumbnail.png";
 import chatify from "../../Assets/Projects/ass1.PNG";
 import suicide from "../../Assets/Projects/thumb4.png";
 import bitsOfCode from "../../Assets/Projects/ass2.PNG";
@@ -61,8 +61,8 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Assignment 4"
-              description="LLM. (To be done)"
-                  demoLink="/assignmentsan"  
+              description="Developing an Application with the Aid of LLM"
+                  demoLink="/assignmentsi"  
             />
           </Col>
         </Row>
